@@ -1,0 +1,23 @@
+本作业主要包含两份代码文件：证件照背景替换和视频序列的背景替换。
+文件目录主要为五个部分：
+|-computervision
+|--src
+| |--BackgroundReplace.py   //证件照背景替换
+| |--ReplaceFunc.py         //视频背景替换的工具函数
+| |--VideoBgReplace.py      //视频背景替换
+|--img
+| |--butterfly.flv          //绿幕视频原文件
+| |--certificate.jpg        //证件照原文件
+| |--sky.jpeg               //视频替换用图片
+| |--sky2.jpeg              //证件照替换用图片
+|--results
+| |--butterflyandsky.avi    //视频背景替换结果
+| |--certificateandsky.jpg  //证件照背景替换结果
+|--作业注释.txt              //作业注释
+|--requiremwnts.txt         //python程序所需环境
+
+程序内的文件路径引用皆采用相对地址索引。
+证件照背景替换命令为: python BackgroundReplace.py
+视频背景替换命令为: python VideoBgReplace.py
+生成文件路径皆在img中。
+若因意外情况无法运行程序，在resluts中保存了正确运行程序的结果。
